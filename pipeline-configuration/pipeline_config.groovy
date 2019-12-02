@@ -1,4 +1,4 @@
 libraries{
     gradle
-    sonarqube
+    bs_sonarqube
 }
