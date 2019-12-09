@@ -1,4 +1,5 @@
 libraries{
+  merge = true
   sdp{
     images{
       registry = "http://0.0.0.0:5000" // registry url
