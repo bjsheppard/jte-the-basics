@@ -10,6 +10,7 @@ on_pull_request to: develop, {
 
 on_merge to: develop, {
   static_code_analysis()
+  app_build()
   build()
   //deploy_to dev
 }
