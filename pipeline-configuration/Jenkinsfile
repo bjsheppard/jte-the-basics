@@ -4,6 +4,7 @@ on_commit {
 
 on_pull_request to: develop, {
   static_code_analysis()
+  app_build()
   build()
 }
 
